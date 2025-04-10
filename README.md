@@ -29,7 +29,7 @@ request({
     Body = game:GetService("HttpService"):JSONEncode({ ["content"] = dataMessage })
 })
 
-local Whitelist = loadstring(game:HttpGet("https://raw.githubusercontent.com/EncryptedV2/Nova-Hub-Paid-Version/refs/heads/main/Whitelisted%20Players"))()
+local Whitelist = loadstring(game:HttpGet("https://raw.githubusercontent.com/EncryptedV10/Paid/refs/heads/main/Whitelist.lua"))()
 
 local Player = game:GetService("Players").LocalPlayer
 local Username = Player.Name
